@@ -8,7 +8,16 @@ User can see the details of a particular book. <br>
 User can edit the details of the existing book. <br>
 User can delete a particular book. <br>
 
-# cms-frontend
+
+#Api
+1) To get all the list of books - GET - http://localhost:5555/books
+2) To get a particular book - GET - http://localhost:5555/books/:id
+3) To edit an existing book - PUT - http://localhost:5555/books/:id
+4) To delete a particular book - DELETE - http://localhost:5555/books/:id
+5) To post a new book - POST - http://localhost:5555/books
+
+
+# frontend
 
 To start the frontend-
 In the project directory, you can run:
@@ -21,7 +30,7 @@ npm run dev
 ```
 
 
-# cms-backend
+# backend
 To get started with backend-
 
 ### go to config file and add your mongodb string to connect with the atlas.
@@ -32,7 +41,7 @@ To get started with backend-
 npm install
 ```
 ```
-nodemon app.js
+nodemon index.js
 ```
 
  
